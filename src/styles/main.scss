@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla:wght@400;700&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Rambla', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 360px;
+}

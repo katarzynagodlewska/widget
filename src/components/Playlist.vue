@@ -1,12 +1,12 @@
 <template>
-    <div>
-        <header>
-            Playlist
+    <div class="playlist">
+        <header class="playlist__header">
+            <nav class="playlist__nav">
+            <img class="playlist__arrow" src="../assets/arrow1.svg">
+            </nav>
+            <h2 class="playlist__title">Playlist</h2>
         </header>
-        <nav>
-            <img src="../assets/arrow1.svg">
-        </nav>
-        <ul>
+        <ul class="list">
             <PlaylistItem/>
             <PlaylistItem/>
             <PlaylistItem/>
@@ -27,5 +27,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+@import "../styles/modules/playlist.scss"
 </style>

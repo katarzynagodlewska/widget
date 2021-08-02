@@ -1,5 +1,7 @@
 <template>
-  <Playlist/>
+  <main class="main">
+      <Playlist/>
+  </main>
 </template>
 
 <script>
@@ -13,5 +15,5 @@ export default {
 </script>
 
 <style lang="scss">
-
+@import "styles/main.scss";
 </style>
