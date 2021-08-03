@@ -2,9 +2,11 @@
     <div class="playlist">
         <header class="playlist__header">
             <nav class="playlist__nav">
-            <img class="playlist__arrow" src="../assets/arrow1.svg">
+                <button class="playlist__button-back">
+                    <img class="playlist__arrow" src="../assets/arrow1.svg">
+                </button>
             </nav>
-            <h2 class="playlist__title">Playlist</h2>
+            <h1 class="playlist__title">Playlist</h1>
         </header>
         <ul class="list">
             <PlaylistItem/>
