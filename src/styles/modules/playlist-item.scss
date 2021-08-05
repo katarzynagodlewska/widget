@@ -1,0 +1,67 @@
+@import "../variables";
+
+.item {
+    height: 4.875rem;
+    list-style: none;
+    margin: 0;
+    max-width: 280px;
+    border-bottom: $light-gray 1px solid;
+    &__actions {
+        margin: -12px 0 0 240px;
+        display: inline-flex;
+    }
+    &__artist {
+        color: $gray;
+        font-size: 12px;
+        display: inline-flex;
+        margin: 0;
+    }
+    &__favorite {
+        background-color: $pink;
+        display: inline-block;
+        height: 8px;
+        margin: 3px 5px 0 0;
+        position: relative;
+        top: 0;
+        transform: rotate(-45deg);
+        width: 8px;
+        &::before, &::after {
+            content: "";
+            background-color: $pink;
+            border-radius: 50%;
+            height: 8px;
+            position: absolute;
+            width: 8px;
+        }
+        &::before {
+            top: -4px;
+            left: 0;
+        }
+        &::after {
+            left: 4px;
+            top: 0;
+        }
+    }
+    &__share {
+        margin: 0px 14px 0 0;
+    }
+    &__time {
+        color: $gray;
+        font-size: 12px;
+        margin: 0;
+        display: inline-flex;
+        &::after {
+            content: "";
+            height: 10px;
+            width: 1px;
+            background-color: $gray;
+            display: block;
+            margin: 2px 4px;
+        }
+    }
+    &__title {
+        color: $dark-purple;
+        margin: -1rem 0 1.5rem;
+    }
+}
+  
