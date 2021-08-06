@@ -8,20 +8,21 @@
     border-radius: 16px;
     padding-bottom: 1.5rem;
     &__arrow {
-        margin: 8px 4px;
+        width: 1rem;
+        margin: 0.75rem 0.25rem;
     }
     &__button-back {
         border: none;
         border-radius: 50%;
         background-color: #fff;
-        width: 37px;
-        height: 37px;
+        width: 2.3125rem;
+        height: 2.3125rem; 
         &:hover  {
             cursor: pointer;
         }
         &:active {
             background-color: #e6e7eb;
-            transition: background-color 0.3s linear;
+            transition: background-color 0.1s linear;
         }
     }
     &__header {
