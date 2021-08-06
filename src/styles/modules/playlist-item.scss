@@ -1,13 +1,14 @@
 @import "../variables";
 
 .item {
-    height: 4.875rem;
+    height: 44px;
     list-style: none;
     margin: 0;
+    padding: 16px 0;
     max-width: 280px;
     border-bottom: $light-gray 1px solid;
     &__actions {
-        margin: -12px 0 0 240px;
+        margin: 0 0 0 240px;
         display: inline-flex;
     }
     &__artist {
@@ -20,7 +21,7 @@
         background-color: $pink;
         display: inline-block;
         height: 8px;
-        margin: 3px 5px 0 0;
+        margin: -14px 5px 0 0;
         position: relative;
         top: 0;
         transform: rotate(-45deg);
@@ -43,7 +44,7 @@
         }
     }
     &__share {
-        margin: 0px 14px 0 0;
+        margin: -20px 14px 0 0;
     }
     &__time {
         color: $gray;
@@ -61,7 +62,7 @@
     }
     &__title {
         color: $dark-purple;
-        margin: -1rem 0 1.5rem;
+        margin: -1.25rem 0 1.5rem;
     }
 }
   
