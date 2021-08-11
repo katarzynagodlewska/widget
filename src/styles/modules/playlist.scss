@@ -15,9 +15,9 @@
         bottom   : 24px;
         left     : 0;
         pointer-events   : none;
-        background-image : linear-gradient(to bottom, rgba(255,255,255, 0), rgba(243,244,248, 1) 95%);
-        width    : 100%;
-        height   : 6rem;
+        background-image : linear-gradient(to bottom, rgba(255,255,255, 0), rgba(243,244,248, 1) 100%);
+        width    : 90%;
+        height   : 60px;
     }
     &__arrow {
         width: 1rem;
@@ -41,6 +41,7 @@
         display: flex;
         justify-content: center;
         position: sticky;
+        margin-bottom: 10px;
     }
     &__nav {
         position: absolute;
@@ -56,6 +57,19 @@
 }
 
 .list {
-    padding: 0 52px 0 28px;
-    margin: 0;
+    padding: 0 24px 0 28px;
+    margin: 0 22px 0 0;
+    max-height: 395px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+        width: 7px;
+        padding-right: 22px;
+    }
+    &::-webkit-scrollbar-thumb {
+        border-radius: 3px;
+        background-color: #DFDFE7;
+        &:active {
+            background-color: #2a224d
+        }
+    }
 }
